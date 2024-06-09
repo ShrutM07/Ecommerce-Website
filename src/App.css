@@ -1,0 +1,44 @@
+/* src/App.css */
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.title-container {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  text-align: center; /* Centered text */
+  padding: 20px 0; /* Padding for spacing */
+}
+
+.title {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5rem; /* Increase font size */
+}
